@@ -1,107 +1,104 @@
 /* reset us */
-*{box-sizing: 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    
-}
-
-
-/* Reset default browser styles */
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: sans-serif;
-    line-height: 1.6;
-    background-color: aqua;
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: aqua;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+  display: inline;
+  margin: 0 10px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 section {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 mark {
-    background-color: yellow;
+  background-color: yellow;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+header img {
+width: 50%;
+height: 40px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 article {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 /* Styling the contact form */
 form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 input[type="submit"]:hover {
-    background-color: #555;
+  background-color: #555;
 }
